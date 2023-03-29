@@ -1,0 +1,131 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: #f2f2f2;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list li a:hover {
+    color: #ff5c0f;
+}
+
+ul {
+    padding: 3px;
+}
+
+h1 {
+    color: #20a8b4;
+    margin: 0;
+    padding: 0;
+}
+
+.orange {
+    color: #ff5c0f;
+}
+
+header ul {
+    padding: 10px 5px;
+}
+
+button {
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    border-color: #20a8b4;
+}
+
+.button {
+    box-shadow: none;
+}
+
+.button:hover {
+    background-color: #ff5c0f
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        border-width: 0px;
+        width: 100%;
+        margin: 0-auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    header h1 ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 5px 10px;
+    }
+    
+    .nav-list li {
+        display: inline;
+        padding: 5px;
+    }
+
+    #people {
+        height: 200px;
+    }
+
+    button {
+        width: auto;
+    }
+
+    .content {
+        display:inline;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    .orange {
+        color: #ff5c0f;
+    }
+    
+    #people {
+        flex-direction: right;
+        padding-right: 50px;
+    }
+    
+    .hide {
+        display: inline;
+    }
+
+     img {
+        height: 150px;
+     }
+     
+     main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 10px;
+    }
+}
